@@ -22,9 +22,9 @@
  */
 typedef struct stack_s
 {
-        int n;
-        struct stack_s *prev;
-        struct stack_s *next;
+	int n;
+	struct stack_s *prev;
+	struct stack_s *next;
 } stack_t;
 
 /**
@@ -38,18 +38,27 @@ typedef struct stack_s
 
 typedef struct instruction_s
 {
-        char *opcode;
-        void (*f)(stack_t **stack, unsigned int line_number);
+	char *opcode;
+	void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
+
+/**
+ *struct variable_s - global variables
+ *@monty_file: File descriptor
+ *@buffer: buffer
+ *@head: pointer to head
+ *
+ *Description: global variables
+ */
 
 typedef struct variable_s /*Struct to access to any variables*/
 {
 	FILE *monty_file;
 	char *buffer;
 	stack_t *head;
-}variables_t;
-extern variables_t variables;
-variables_t variables;
+} variable_t;
+extern variable_t variables;
+variable_t variables;
 
 /*Get line in the struct*/
 void get_function(unsigned int line_num);
@@ -62,6 +71,11 @@ void push_stack(stack_t **head, unsigned int line_num);
 
 /*Print value in monty file that was pushed*/
 void pall_function(stack_t **head, unsigned int line_num);
+
+/*Print value in the top of stack*/
+void pint_function(stack_t **head, unsigned int line_num);
+
+
 
 
 #endif /* _MONTY_H_ */
