@@ -27,11 +27,11 @@ void get_function(unsigned int line_num)
 
 	opcode = strtok(variables.buffer, " ");
 
-	if (opcode != NULL)
+	if (opcode != NULL && opcode[0] != '#')
 	{
 		while (op[i].opcode)
 		{
-			if (op[i].opcode != '#' && strcmp(op[i].opcode, opcode) == 0)
+			if (strcmp(op[i].opcode, opcode) == 0)
 			{
 				op[i].f(&variables.head, line_num);
 				break;
