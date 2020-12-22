@@ -98,7 +98,8 @@ void mod_function(stack_t **head, unsigned int line_num);
 /*Print char value of number in the top of stack*/
 void pchar_function(stack_t **head, unsigned int line_num);
 
-
+/*Prints string starting at the top of the stack*/
+void pstr_function(stack_t **head, unsigned int line_num);
 
 
 #endif /* _MONTY_H_ */

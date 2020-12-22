@@ -23,6 +23,7 @@ void get_function(unsigned int line_num)
 		{"mul", mul_function},
 		{"mod", mod_function},
 		{"pchar", pchar_function},
+		{"pstr", pstr_function},
 		{NULL, NULL},
 	};
 
