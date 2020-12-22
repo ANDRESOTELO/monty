@@ -101,5 +101,8 @@ void pchar_function(stack_t **head, unsigned int line_num);
 /*Prints string starting at the top of the stack*/
 void pstr_function(stack_t **head, unsigned int line_num);
 
+/*rotates the stack to the top.*/
+void rotl_function(stack_t **head, unsigned int line_num);
+
 
 #endif /* _MONTY_H_ */
