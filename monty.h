@@ -74,4 +74,11 @@ void pint_function(stack_t **head, unsigned int line_num);
 /*Removes the top of stack*/
 void pop_function(stack_t **head, unsigned int line_num);
 
+/*swaps the top two elements of the stack*/
+void swap_function(stack_t **head, unsigned int line_num);
+
+
+
+
+
 #endif /* _MONTY_H_ */
