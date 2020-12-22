@@ -80,6 +80,8 @@ void swap_function(stack_t **head, unsigned int line_num);
 /*Adds the top two elements of the stack*/
 void add_function(stack_t **head, unsigned int line_num);
 
+/*Nop function, the function doesn´t do anything*/
+void nop_function(stack_t **head, unsigned int line_num);
 
 
 #endif /* _MONTY_H_ */
