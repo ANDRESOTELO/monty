@@ -36,5 +36,6 @@ int main(int argc, char **argv)
 			get_function(line_num);
 		}
 	}
+	want_to_be_free();
 	exit(EXIT_SUCCESS);
 }
