@@ -13,6 +13,7 @@ void get_function(unsigned int line_num)
 	instruction_t op[] = {
 		{"push", push_stack},
 		{"pall", pall_function},
+		{"pint", pint_function},
 		{NULL, NULL},
 	};
 
