@@ -31,7 +31,7 @@ void get_function(unsigned int line_num)
 	{
 		while (op[i].opcode)
 		{
-			if (strcmp(op[i].opcode, opcode) == 0)
+			if (op[i].opcode != '#' && strcmp(op[i].opcode, opcode) == 0)
 			{
 				op[i].f(&variables.head, line_num);
 				break;
