@@ -77,7 +77,8 @@ void pop_function(stack_t **head, unsigned int line_num);
 /*swaps the top two elements of the stack*/
 void swap_function(stack_t **head, unsigned int line_num);
 
-
+/*Adds the top two elements of the stack*/
+void add_function(stack_t **head, unsigned int line_num);
 
 
 

@@ -16,6 +16,7 @@ void get_function(unsigned int line_num)
 		{"pint", pint_function},
 		{"pop", pop_function},
 		{"swap", swap_function},
+		{"add", add_function},
 		{NULL, NULL},
 	};
 
