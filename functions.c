@@ -20,6 +20,8 @@ void get_function(unsigned int line_num)
 		{"nop", nop_function},
 		{"sub", sub_function},
 		{"div", div_function},
+		{"mul", mul_function},
+		{"mod", mod_function},
 		{NULL, NULL},
 	};
 

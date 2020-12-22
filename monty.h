@@ -89,5 +89,10 @@ void sub_function(stack_t **head, unsigned int line_num);
 /*Div two numbers in the top of stack*/
 void div_function(stack_t **head, unsigned int line_num);
 
+/*Multiplies two integers in the top of stack*/
+void mul_function(stack_t **head, unsigned int line_num);
+
+/*Computes the rest of the division*/
+void mod_function(stack_t **head, unsigned int line_num);
 
 #endif /* _MONTY_H_ */
