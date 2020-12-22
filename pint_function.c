@@ -2,7 +2,7 @@
 
 /**
  *pint_function - Print data on the top
- *@stack: Points to head
+ *@head: Points to head
  *@line_num: Line number
  */
 
