@@ -51,12 +51,13 @@ typedef struct instruction_s
  *Description: global variables
  */
 
-typedef struct variable_s /*Struct to access to any variables*/
+typedef struct variable_s
 {
 	FILE *monty_file;
 	char *buffer;
 	stack_t *head;
 } variable_t;
+
 extern variable_t variables;
 variable_t variables;
 
