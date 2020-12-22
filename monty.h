@@ -83,5 +83,9 @@ void add_function(stack_t **head, unsigned int line_num);
 /*Nop function, the function doesn´t do anything*/
 void nop_function(stack_t **head, unsigned int line_num);
 
+/*Sub the top element with the second element*/
+void sub_function(stack_t **head, unsigned int line_num);
+
+
 
 #endif /* _MONTY_H_ */
