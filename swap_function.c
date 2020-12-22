@@ -17,10 +17,13 @@ void swap_function(stack_t **head, unsigned int line_num)
 		want_to_be_free();
 		exit(EXIT_FAILURE);
 	}
-	variables.head = variables.head->next;
-	variables.head->prev = NULL;
-	temp->next = variables.head->next;
-	variables.head->next->prev = temp;
-	variables.head->next = temp;
-	temp->prev = variables.head;
+	else
+	{
+		variables.head = variables.head->next;
+		variables.head->prev = NULL;
+		temp->next = variables.head->next;
+		variables.head->next->prev = temp;
+		variables.head->next = temp;
+		temp->prev = variables.head;
+	}
 }
