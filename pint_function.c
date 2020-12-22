@@ -14,5 +14,6 @@ void pint_function(stack_t **head, unsigned int line_num)
 		want_to_be_free();
 		exit(EXIT_FAILURE);
 	}
-	printf("%d\n", (*head)->n);
+	else
+		printf("%d\n", (*head)->n);
 }
