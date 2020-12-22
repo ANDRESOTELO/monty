@@ -14,6 +14,7 @@ void get_function(unsigned int line_num)
 		{"push", push_stack},
 		{"pall", pall_function},
 		{"pint", pint_function},
+		{"pop", pop_function},
 		{NULL, NULL},
 	};
 

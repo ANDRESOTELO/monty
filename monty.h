@@ -71,7 +71,7 @@ void pall_function(stack_t **head, unsigned int line_num);
 /*Print value in the top of stack*/
 void pint_function(stack_t **head, unsigned int line_num);
 
-
-
+/*Removes the top of stack*/
+void pop_function(stack_t **head, unsigned int line_num);
 
 #endif /* _MONTY_H_ */
