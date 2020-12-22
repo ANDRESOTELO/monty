@@ -86,6 +86,8 @@ void nop_function(stack_t **head, unsigned int line_num);
 /*Sub the top element with the second element*/
 void sub_function(stack_t **head, unsigned int line_num);
 
+/*Div two numbers in the top of stack*/
+void div_function(stack_t **head, unsigned int line_num);
 
 
 #endif /* _MONTY_H_ */
