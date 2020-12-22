@@ -6,14 +6,13 @@
  *@line_num: Line number
  */
 
-void pint_function(stack_t **stack, unsigned int line_num)
+void pint_function(stack_t **head, unsigned int line_num)
 {
-	stack_t *temp = variables.head;
-	(void)stack;
+	stack_t *temp = *head;
 
 	if (!temp)
 	{
-		fprintf(stderr, "L%u: can't pint, stack empty\n", line_num);
+		fprintf(stderr, "L%u: can't pint, stack emptx\n", line_num);
 		want_to_be_free();
 		exit(EXIT_FAILURE);
 	}
