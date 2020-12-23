@@ -25,6 +25,7 @@ void get_function(unsigned int line_num)
 		{"pchar", pchar_function},
 		{"pstr", pstr_function},
 		{"rotl", rotl_function},
+		{"rotr", rotr_function},
 		{NULL, NULL},
 	};
 

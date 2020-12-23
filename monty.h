@@ -104,5 +104,7 @@ void pstr_function(stack_t **head, unsigned int line_num);
 /*rotates the stack to the top.*/
 void rotl_function(stack_t **head, unsigned int line_num);
 
+/*rotates the stack to the bottom.*/
+void rotr_function(stack_t **head, unsigned int line_num);
 
 #endif /* _MONTY_H_ */
